@@ -2,11 +2,15 @@ First compile it with the command:
 
 dotnet main.cs
 
-Then run it and pass it any number of command line arguments:
+then it will print:
+No command line arguments were given.
 
-./a.out These are command line arguments
+if you were to run it with arguments after like:
 
-The program will read in the arguments and then print information on them:
+dotnet main.cs hi hi hi
 
-You entered 5 command line arguments.
-The average number of characters per argument is 5.6.
+it produces:
+
+Argument 0: hi
+Argument 1: hi
+Argument 2: hi
